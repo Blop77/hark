@@ -1,0 +1,26 @@
+{
+  "name": "hark",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free, private read-aloud for PDFs, ebooks and text. Natural voices that run entirely in your browser.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "kokoro-js": "^1.2.1",
+    "pdfjs-dist": "^5.4.296"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.0.10",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^3.2.4"
+  }
+}
